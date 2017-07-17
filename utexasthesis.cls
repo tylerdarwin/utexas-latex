@@ -91,8 +91,8 @@
 % handle PhD vs. masters based on optional masters argument, which defaults to false
 \if@masters
   \gdef\@doctype{Thesis}
-  \gdef\@degree{Master of Arts}
-  \gdef\@degreeabbr{M.A.}
+  \gdef\@degree{Master of Science}
+  \gdef\@degreeabbr{M.S.}
 \else
   \gdef\@doctype{Dissertation}
   \gdef\@degree{Doctor of Philosophy}
